@@ -2,28 +2,27 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   formContext: {
-    width: "100%",
-    height: "100%",
-    bottom: 0,
+    flex: 1,
     backgroundColor: "#e0e5e5",
-    alignItems: "center",
-    borderTopRightRadius: 30,
+    marginTop: 5,
     borderTopLeftRadius: 30,
-    marginTop: 10,
+    borderTopRightRadius: 30,
+    alignItems: "center",
+    paddingTop: 10,
   },
   form: {
     width: "100%",
-    height: "auto",
-    marginTop: 30,
-    padding: 10,
+    paddingTop: 20,
+    // alignItems: "center",
   },
   formLabel: {
+    alignItems: "flex-start",
     color: "#000000",
     fontSize: 18,
-    paddingLeft: 20,
+    paddingLeft: 20,    
   },
   input: {
-    width: "90%",
+    width: "90%",        
     borderRadius: 50,
     backgroundColor: "#f6f6f6",
     height: 40,
@@ -50,6 +49,24 @@ const styles = StyleSheet.create({
     color: "red",
     fontWeight: "bold",
     paddingLeft: 20,
+  },
+  exibitionResultImc: {
+    width: "100%",
+    height: "50%",
+    alignItems: "center",    
+  },
+  listImcs:{
+    marginTop: 20,
+  },
+  resultImcItem:{
+    fontSize: 26,
+    color: "red",
+    height: 50,
+    width: "100%",
+    paddingRight: 20,
+  },
+  textResultItemList:{
+    fontSize: 16,    
   },
 });
 
