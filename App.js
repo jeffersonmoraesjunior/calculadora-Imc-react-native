@@ -1,6 +1,5 @@
 import { View, StyleSheet } from "react-native";
 import Title from "./src/components/Title/index";
-import Main from "./src/components/Main/index";
 import Form from "./src/components/Form/index";
 
 export default function App() {

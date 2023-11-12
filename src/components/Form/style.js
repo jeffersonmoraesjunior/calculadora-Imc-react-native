@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderTopRightRadius: 30,
     borderTopLeftRadius: 30,
-    marginTop: 30,
+    marginTop: 10,
   },
   form: {
     width: "100%",
@@ -34,16 +34,22 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     alignItems: "center",
     justifyContent: "center",
-    width: "90%",    
+    width: "90%",
     backgroundColor: "#6454F0",
     paddingTop: 14,
     paddingBottom: 14,
     marginLeft: 12,
-    margin: 30,
+    marginTop: 20,
   },
-  textButtonCalculator: {    
+  textButtonCalculator: {
     fontSize: 20,
     color: "#ffffff",
+  },
+  errorMessage: {
+    fontSize: 12,
+    color: "red",
+    fontWeight: "bold",
+    paddingLeft: 20,
   },
 });
 

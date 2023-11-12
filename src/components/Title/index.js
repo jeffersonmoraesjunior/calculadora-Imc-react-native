@@ -5,7 +5,7 @@ import styles from "./styles";
 export default function Title() { 
     return (
         <View style={styles.boxTitle} >
-            <Text style={styles.textTitle}>Exale Saúde</Text>
+            <Text style={styles.textTitle}>Calculadora Saúde</Text>
         </View>
     );
 }
